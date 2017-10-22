@@ -1,0 +1,23 @@
+{
+  "name": "pool-contracts",
+  "version": "1.0.0",
+  "description": "Pool contract deployment",
+  "main": "truffle.js",
+  "dependencies": {
+    "node-rsa": "^0.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gladiusio/pool-contracts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gladiusio/pool-contracts/issues"
+  },
+  "homepage": "https://github.com/gladiusio/pool-contracts#readme"
+}
