@@ -19,3 +19,9 @@ Deployment for the Gladius pool contract.
 - Currently use the generated IP addresses list to build a zonefile for geoDNS (https://github.com/abh/geodns)
 - This is left up to the pool manager in the current implementation as this file will differ significantly per website.
     - In future version this file will be automatically generated based on the client options.
+
+## Notes
+- Only HTTP traffic for now
+- Payment is not implemented due to the token not being released yet, will be implemented by the end of the token sale.
+- DNS will throw as much bandwidth as it needs to towards a node currently, make sure they can handle it for your application.
+- **Only accept trusted nodes after careful vetting! (email them etc.)**
