@@ -12,6 +12,9 @@ function getPublicKey() {
         key = fs.readFileSync("../keys/PublicKey.txt").toString();
     }
     else {
+        if (!fs.existsSync('../keys/')){
+            fs.mkdirSync('../keys/');
+        }
         fs.writeFileSync("../keys/PublicKey.txt", baseKey.exportKey("pkcs1-public-pem"));
         key = fs.readFileSync("../keys/PublicKey.txt").toString();
     }
@@ -39,5 +42,5 @@ var publicKey = getPublicKey();
 
 
 module.exports = function (deployer) {
-    deployer.deploy(Pool, publicKey);
+    deployer.deploy(Pool, publicKey, {from: });
 };

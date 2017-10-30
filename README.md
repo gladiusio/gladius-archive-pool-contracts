@@ -24,4 +24,4 @@ Deployment for the Gladius pool contract.
 - Only HTTP traffic for now
 - Payment is not implemented due to the token not being released yet, will be implemented by the end of the token sale.
 - DNS will throw as much bandwidth as it needs to towards a node currently, make sure they can handle it for your application.
-- **Only accept trusted nodes after careful vetting! (email them etc.)**
+- **Only accept trusted nodes after careful vetting! (email themetc.)**
