@@ -42,5 +42,5 @@ var publicKey = getPublicKey();
 
 
 module.exports = function (deployer) {
-    deployer.deploy(Pool, publicKey, {from: });
+    deployer.deploy(Pool, publicKey);
 };
